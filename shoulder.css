@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: -apple-system, sans-serif;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    font-family: -apple-system, sans-serif;
+    font-size: 80px;
+    align-items: center;
+    padding-bottom: 30px;
+    color: #45FFCA;
+}
+
+h2 {
+    font-size: 50px;
+    color: aqua;
+}
+
+.about {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+.about-img img {
+    height: 480px;
+    width: 35vw;
+    border: 2px solid var(--text-color);
+    border-radius: 10%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content {
+    padding: 0 3rem;
+}
+
+.about1-content {
+    padding: 0 3rem;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content p {
+    font-size: 1.35rem;
+    margin: 2rem 0 2rem;
+}
+
+h3 {
+    font-size: 1.35rem;
+    margin: 1.5rem 0 1.5rem; 
+    color: #4cef72;
+}
+
+li {
+    margin: 0.5rem 0 0.5rem;
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 60px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    .about {
+        margin: 50px;
+        flex-direction: column;
+    }
+    
+    .about-img img {
+        height: 400px;
+        width: 50vw;
+    }
+    
+    .heading {
+        font-size: 3.5rem;
+    }
+    
+    .about-content p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 35px;
+    }
+    
+    .about {
+        margin: 20px;
+        flex-direction: column;
+    }
+    
+    .about-img img {
+        height: 300px;
+        width: 70vw;
+    }
+    
+    .heading {
+        font-size: 2.5rem;
+    }
+    
+    .about-content p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    .about {
+        margin: 10px;
+        flex-direction: column;
+    }
+    
+    .about-img img {
+        height: 200px;
+        width: 90vw;
+    }
+    
+    .heading {
+        font-size: 2rem;
+    }
+    
+    .about-content p {
+        font-size: 1rem;
+    }
+}
